@@ -7,7 +7,7 @@
 [View interactive dashboard here on the Power BI Service](Put link here)
 
 
-## Introduction of Everything
+## Introduction
 
 This Power BI project visualizes data from **FTX Trading**'s bankruptcy process that started in 2023 at the US Bankruptcy Court in the District of Delaware. (what we did.)
 
