@@ -3,8 +3,8 @@
 
 ![Dashboard Page 1](/Images/Project_1_Page_1.png)
 
-
-[View interactive dashboard here on the Power BI Service](Put link here)
+## Interactive Dashboard
+[View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjRmMzg1YTYtMGM0Yi00ZGRiLWIyYjctNTRjM2IxNmY0NzcwIiwidCI6IjRiMmE0YjE5LWQxMzUtNDIwZS04YmIyLWIxY2QyMzg5OThjYyIsImMiOjF9&pageName=aee7acb68b81e2d44381)
 
 
 ## Introduction
@@ -27,7 +27,8 @@ This Power BI project visualizes data from **FTX Trading**'s bankruptcy process 
     - **Slicers:**
     - **Buttons & Bookmarks:**
     - **Drill-Through:**
-## Dashboard Overview
+
+## Interactive 
 
 ### Page 1: High-Level Market View
 
