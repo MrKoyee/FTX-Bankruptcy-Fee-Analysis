@@ -1,7 +1,7 @@
 # FTX Bankruptcy Fee Overview
 
 
-![Dashboard 1](/Images/FTX_1.png)
+![Dashboard Page 1](/Images/FTX_1.png)
 
 ## Interactive Dashboard
 [View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjRmMzg1YTYtMGM0Yi00ZGRiLWIyYjctNTRjM2IxNmY0NzcwIiwidCI6IjRiMmE0YjE5LWQxMzUtNDIwZS04YmIyLWIxY2QyMzg5OThjYyIsImMiOjF9&pageName=aee7acb68b81e2d44381)
