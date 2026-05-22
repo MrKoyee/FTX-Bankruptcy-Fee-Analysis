@@ -1,3 +1,7 @@
+# Table of Contents
+## [Introduction](https://github.com/MrKoyee/Power-BI-Dashboard#-introduction)
+
+
 # FTX Bankruptcy Fees Data Analysis
 ## 📊 Interactive Dashboard
 
@@ -91,7 +95,7 @@ This was the most technically demanding phase of the project. The FTX bankruptcy
        - **Bar Charts:** Top professionals by compensation, Billing Rates and Total Fees by job titles.
         - **Line and Clustered Column Chart:** Professionals by billale hours and hourly rates.
         
-## 🛠️ Tools & Technologies:  
+## 🛠️ Tools & Technologies
 Documents were sourced from PACER and processed using Power Query for data extraction, cleaning, and transformation. Power BI was used for data modeling, dashboard development, and visualization, with DAX supporting the creation of calculated columns, measures, and custom metrics.
 
 ## 💡 Key Findings & Conclusion  
@@ -107,3 +111,14 @@ The analysis examines how professional service costs were distributed across the
 - More than 2,000 professionals were engaged across legal, consulting, accounting, and advisory firms throughout the proceedings.
 - Senior partner billing rates exceeded $1,600 per hour, consistent with compensation levels observed in other large-scale Chapter 11 restructurings.
 - The findings demonstrate the significant scale, complexity, and resource demands associated with administering one of the largest corporate bankruptcies in recent history.
+
+## 📣 Overall Recommendations
+- Given the scale of professional fees observed, bankruptcy estates should adopt more standardized and granular reporting formats for fee applications.
+- The analysis shows that total hours are a stronger driver of costs than hourly rates. This suggests that controlling staffing intensity is more effective than negotiating rates alone. Future estates should implement pre-approved budget caps on hours by workstream and require justification for significant overruns.
+- The data suggests significant variation in how firms deploy senior vs junior staff. Estates should encourage a more balanced leverage model, ensuring that higher-cost senior professionals are used primarily for strategic work, while routine tasks are delegated to lower-cost staff.
+- The heavy reliance on unstructured PDFs created significant inefficiencies in analysis. Courts and estates should consider adopting standardized digital submission templates to enable automated ingestion, auditing, and analytics.
+
+## Author
+### Segun
+Data Analyst and Storyteller
+
