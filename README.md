@@ -1,14 +1,15 @@
-# Table of Contents
-- [Introduction](https://github.com/MrKoyee/Power-BI-Dashboard#-introduction)
+# FTX Bankruptcy Fees Data Analysis
+## Table of Contents
+- [Project Overview](https://github.com/MrKoyee/Power-BI-Dashboard#-introduction)
 - [Business Questions](https://github.com/MrKoyee/Power-BI-Dashboard#-business-questions)
 - [Why this Project Matters](https://github.com/MrKoyee/Power-BI-Dashboard#-why-this-project-matters)
 - [Skills Showcased](https://github.com/MrKoyee/Power-BI-Dashboard#-skills-showcased)
 - [Tools & Technologies](https://github.com/MrKoyee/Power-BI-Dashboard#%EF%B8%8F-tools--technologies)
 - [Key Findings & Conclusion](https://github.com/MrKoyee/Power-BI-Dashboard#-key-findings--conclusion)
 - [Overall Recommendatins](https://github.com/MrKoyee/Power-BI-Dashboard#-overall-recommendations)
-- [Author](https://github.com/MrKoyee/Power-BI-Dashboard#author)
+- [Author Information](https://github.com/MrKoyee/Power-BI-Dashboard#author)
 
-# FTX Bankruptcy Fees Data Analysis
+
 ## 📊 Interactive Dashboard
 
 
@@ -18,7 +19,7 @@
 [View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMWJlNWI4YTgtNmE2My00MjcwLTk4ZTktYzBkNjIzMDFiMzIyIiwidCI6IjRiMmE0YjE5LWQxMzUtNDIwZS04YmIyLWIxY2QyMzg5OThjYyIsImMiOjF9)
 
 
-## 📖 Introduction
+## 📖 Project Overview
 
 
 This project presents a comprehensive analysis of various costs incurred during the bankruptcy proceedings of **FTX Trading Ltd.** 
@@ -124,7 +125,7 @@ The analysis examines how professional service costs were distributed across the
 - The data suggests significant variation in how firms deploy senior vs junior staff. Estates should encourage a more balanced leverage model, ensuring that higher-cost senior professionals are used primarily for strategic work, while routine tasks are delegated to lower-cost staff.
 - The heavy reliance on unstructured PDFs created significant inefficiencies in analysis. Courts and estates should consider adopting standardized digital submission templates to enable automated ingestion, auditing, and analytics.
 
-## Author
+## Author Information
 ### Segun
 Data Analyst and Storyteller
 
