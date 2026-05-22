@@ -10,13 +10,13 @@
 - [Author Information](https://github.com/MrKoyee/Power-BI-Dashboard#author)
 
 
-## 📊 Interactive Dashboard
+## 📊 Dashboard Preview
 
 
 
 
 ![Dashboard Page 1](/Images/FTX_1.png)
-[View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMWJlNWI4YTgtNmE2My00MjcwLTk4ZTktYzBkNjIzMDFiMzIyIiwidCI6IjRiMmE0YjE5LWQxMzUtNDIwZS04YmIyLWIxY2QyMzg5OThjYyIsImMiOjF9)
+[View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjNjMDRlZmUtZjM1OS00ZTAxLWFlYjktZTMwM2MxZGVhZGQ4IiwidCI6IjRiMmE0YjE5LWQxMzUtNDIwZS04YmIyLWIxY2QyMzg5OThjYyIsImMiOjF9)
 
 
 ## 📖 Project Overview
