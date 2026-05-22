@@ -1,6 +1,12 @@
 # Table of Contents
-## [Introduction](https://github.com/MrKoyee/Power-BI-Dashboard#-introduction)
-
+- [Introduction](https://github.com/MrKoyee/Power-BI-Dashboard#-introduction)
+- [Business Questions](https://github.com/MrKoyee/Power-BI-Dashboard#-business-questions)
+- [Why this Project Matters](https://github.com/MrKoyee/Power-BI-Dashboard#-why-this-project-matters)
+- [Skills Showcased](https://github.com/MrKoyee/Power-BI-Dashboard#-skills-showcased)
+- [Tools & Technologies](https://github.com/MrKoyee/Power-BI-Dashboard#%EF%B8%8F-tools--technologies)
+- [Key Findings & Conclusion](https://github.com/MrKoyee/Power-BI-Dashboard#-key-findings--conclusion)
+- [Overall Recommendatins](https://github.com/MrKoyee/Power-BI-Dashboard#-overall-recommendations)
+- [Author](https://github.com/MrKoyee/Power-BI-Dashboard#author)
 
 # FTX Bankruptcy Fees Data Analysis
 ## 📊 Interactive Dashboard
