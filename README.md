@@ -12,25 +12,23 @@
 
 ## 📊 Dashboard Preview
 
-
-
-
 ![Dashboard Page 1](/Images/FTX_1.png)
-[View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjNjMDRlZmUtZjM1OS00ZTAxLWFlYjktZTMwM2MxZGVhZGQ4IiwidCI6IjRiMmE0YjE5LWQxMzUtNDIwZS04YmIyLWIxY2QyMzg5OThjYyIsImMiOjF9)
+
+[View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiN2M5OTliMTUtMGJhZC00NGJlLTg5MDctODZjNjNjNTgyMzZlIiwidCI6IjRiMmE0YjE5LWQxMzUtNDIwZS04YmIyLWIxY2QyMzg5OThjYyIsImMiOjF9)
 
 
 ## 📖 Project Overview
 
 
-This project presents a comprehensive analysis of various costs incurred during the bankruptcy proceedings of **FTX Trading Ltd.** 
+This project presents a comprehensive analysis of various costs **FTX Trading Ltd.** incurred during bankruptcy. 
 
-The dramatic collapse of the 🪙 crytocurrency trading platform in November 2022 triggered one of the most complex and high-profile bankruptcy cases in US history. The legal action was initiated under Chapter 11 of the US Bankruptcy Code in the District of Delaware.
+FTX sought protection under Chapter 11 of the US Bankruptcy Code in the District of Delaware after the 🪙 cryptocurrency exchange platform's collapse in 2022. The legal action eventually led to one of the most complex and high-profile bankruptcy cases in US history.
 
-Chapter 11 allows a company struggling with debt repayment to restructure its affairs while retaining control. In this type of proceedings, the troubled company engages the services of law firms, financial advisors, forensic investigators, tax specialists, claims administrators, and restructuring consultancy firms to assist with asset recovery, litigation, investigations, and creditor distributions.
+Chapter 11 allows a company struggling with debt repayment to restructure its operations while retaining control. As part of the restructuring process, the company typically engages a range of professional advisors, including law firms and financial advisors. These professionals assist with critical tasks such as asset recovery, litigation, internal investigations, and creditor distributions.
 
-These advisors often bill the bankruptcy estate under court supervision, a process that involves a public disclosure of fees and expenses incurred during the process through applications filed on the court docket. These disclosures can make for a rich data and reveal patterns for stakeholders about who billed FTX and for what services, as well as how Chapter 11 costs can grow rapidly for various types of companies.
+Because these advisors are compensated from the bankruptcy estate, their fees and expenses are subject to court oversight and must be publicly disclosed through fee applications filed on the bankruptcy docket. These disclosures create a rich and transparent dataset that offers valuable insights into how professional services are utilized during a Chapter 11 case. Stakeholders can identify who billed the debtor, the nature of the services provided, and how restructuring costs can escalate over the course of a large and complex bankruptcy proceeding.
 
-This project scrapped hundreds of pages of those fee applications from FTX's court dockets, with the goal of transforming raw, unstructured PDF filings into a structured, interactive Power BI dashboard. 
+This project scrapped hundreds of pages of those fee applications from the FTX bankruptcy docket, converting raw and unstructured PDF filings into a structured dataset that reveals how advisory fees accumulated for the company.
 
 ## 🎯 Business Questions
 - **💰 Spending Analysis**
@@ -55,12 +53,11 @@ This project scrapped hundreds of pages of those fee applications from FTX's cou
 
 ## 📌 Why This Project Matters
 
-Companies facing financial distress often turn to bankruptcy protection as a means of restructuring their obligations and preserving value for stakeholders. While bankruptcy can provide a structured path to recovery, the process itself can be extremely costly. Debtors typically retain a wide range of professional service providers to navigate the legal, operational, and financial complexities of the proceedings.
+Companies facing financial distress often seek protection through the bankruptcy courts. While Chapter 11 can provide a structured path to recovery and maximize value for creditors, the restructuring process itself can be extraordinarily expensive.
 
-This project explores the scale and composition of those professional costs through the lens of the FTX bankruptcy, one of the largest and most complex corporate restructurings in recent history. This project reveals how professional fees accumulate over time, which firms and professionals account for the largest share of costs, and the key factors driving overall expenditures.
+In the case of FTX, professional advisory fees approached $1 billion, making it one of the costliest bankruptcy proceedings in the US. These expenses can significantly reduce the pool of assets ultimately available for distribution to creditors and other stakeholders.
 
-The findings demonstrate that bankruptcy-related professional fees can reach hundreds of millions of dollars, and in some cases, such as FTX, approach or exceed $1 billion. Thereby reducing the assets ultimately available to creditors and other stakeholders. As a result, understanding how these costs are incurred is important not only for legal and financial professionals, but also for investors, creditors, restructuring advisors, and policymakers interested in the efficiency and economics of the bankruptcy process.
-
+Understanding how these costs are accumulated is therefore important not only for legal and financial professionals, but also for investors, creditors, restructuring advisors, policymakers, and researchers interested in the efficiency, transparency, and economics of the bankruptcy process.
 
 ## 🧠 Skills Showcased
 - **🗂️ Data Extraction from PDFs:**  
@@ -85,49 +82,54 @@ This was the most technically demanding phase of the project. The FTX bankruptcy
 
 - **📐 DAX Measures:** Custom measures were written in DAX to power the dashboard analytics. These include **Total Requested**, **Total Approved**, **Total Paid**, **Average Blended Rate**, and **Total Hours**.
 
-- **📊 Dashboards & Visualization:** Two dashboards were built; one for advisory firms and the other for professionals. 
+- **📊 Dashboards & Visualization:** Two dashboards were built; one for advisory firms and the other for professionals in those firms. 
     - **Dashboard 1: Advisory Firms** 
-        ![Dashboard Page 1](/Images/FTX_1.png)
-        - **KPI Cards:** Total Amount Charged, Number of Advisors, Average Hourly Rate, Average Fee Realization Rate, and Average Expense Realization Rate.
+      ![Dashboard Page 1](/Images/FTX_1.png)
+        - **KPI Cards:** Total Amount Charged, Number of Firms, Average Hourly Rate, Fees Requested, and Expenses Requested.
         - **Bar Chart:** Top advisory firms by amount charged.
         - **Donut Chart:** Amount charged distribution.
-        - **Treemap:** Share of professional categories.
+        - **Treemap:** Share of advisory firm categories.
         - **Scatter Chart:** Three-in-one dynamic scatter charts for relationships among fees, hours and rates.
         - **Stacked Bar Chart:** Workforce breakdown.
         - **Funnel Chart:** Fee flow from request to approval.
-    
+        - **Buttons:** Two sents of buttons for the Scatter Chart and the fees.
+        
     - **Dashboard 2: Professionals**
-        ![Dashboard Page 1](/Images/FTX_2.png)
-      - **KPI Cards:** Total Professional Compensation, Number of Professionals, Average Hourly Rate, Total Hours Billed, and Average Hours.
-       - **Bar Charts:** Top professionals by compensation, Billing Rates and Total Fees by job titles.
-        - **Line and Clustered Column Chart:** Professionals by billale hours and hourly rates.
+        ![Dashboard Page 2](/Images/FTX_2.png)
+        - **KPI Cards:** Total Professional Fees, Number of Professionals, Average Hourly Rate, Total Hours Billed, and Average Hours.
+        - **Bar Charts:** Top professionals by compensation, rates by job titles, and a breakdown of expenses.
+        - **Line and Clustered Column Chart:** Professionals by billable hours and hourly rates.
+        - **Slicer:** Added one to select advisory firms.
         
 ## 🛠️ Tools & Technologies
-Documents were sourced from PACER and processed using Power Query for data extraction, cleaning, and transformation. Power BI was used for data modeling, dashboard development, and visualization, with DAX supporting the creation of calculated columns, measures, and custom metrics.
+- **⚖️ PACER:** – To access fee application documents and other bankruptcy filings.
+- **📈 Microsoft Excel:** For exploratory data analysis and quality checks.
+- **🔄 Power Query:** ETL tool for data extraction, cleaning, standardization, and transformation.
+- **📊 Power BI:** For data modeling, dashboard development, and visualization. 
+- **🧮 Data Analysis Expressions:** To support the creation of calculated columns, measures, and custom metrics.
+- **💻 Visual Studio Code:** For project documentation, README development, file management, and Git integration.
+- **🗂️ Git & GitHub:** For project documentation, portfolio presentation, and version control.
 
 ## 💡 Key Findings & Conclusion  
 The analysis examines how professional service costs were distributed across the FTX bankruptcy estate and identifies the primary drivers of fee generation.
 
-- Professional firms engaged by FTX billed the estate nearly $1 billion, making the case one of the most expensive bankruptcy proceedings in US history.
-- Fee generation was highly concentrated, with Alvarez & Marsal and Sullivan & Cromwell accounting for a substantial share of total advisory costs.
+- Professional firms engaged by FTX billed the estate nearly $1 billion, making the case one of the most expensive bankruptcy proceedings in the US.
+- Fee generation was highly concentrated, with Alvarez & Marsal and Sullivan & Cromwell accounting for more than half of total costs.
 - Reimbursable expenses represented less than 2% of total costs, indicating that professional fees were the dominant expense category.
-
-- The analysis found that hours worked were a stronger determinant of total fees than hourly billing rates, highlighting the importance of staffing intensity in driving costs.
-
+- Expenses were dominated by license fees, accomodation, and logistics.
+- The analysis found that hours worked were a stronger determinant of total fees than hourly billing rates.
+- Owl Hill CEO John Ray earned $48.7m to become highest earner.
 - Ernst & Young deployed the largest number of professionals among all firms retained by the estate.
-- More than 2,000 professionals were engaged across legal, consulting, accounting, and advisory firms throughout the proceedings.
-- Senior partner billing rates exceeded $1,600 per hour, consistent with compensation levels observed in other large-scale Chapter 11 restructurings.
-- The findings demonstrate the significant scale, complexity, and resource demands associated with administering one of the largest corporate bankruptcies in recent history.
+- More than 1,600 professionals were engaged across legal, consulting, accounting, and advisory firms throughout the proceedings.
+- Of Counsels were the most expensive professionals with hourly rates exceeding $2,000.
 
 ## 📣 Overall Recommendations
 - Given the scale of professional fees observed, bankruptcy estates should adopt more standardized and granular reporting formats for fee applications.
-- The analysis shows that total hours are a stronger driver of costs than hourly rates. This suggests that controlling staffing intensity is more effective than negotiating rates alone. Future estates should implement pre-approved budget caps on hours by workstream and require justification for significant overruns.
-- The data suggests significant variation in how firms deploy senior vs junior staff. Estates should encourage a more balanced leverage model, ensuring that higher-cost senior professionals are used primarily for strategic work, while routine tasks are delegated to lower-cost staff.
+- The analysis shows that hours worked are a stronger driver of costs than rates. This suggests that controlling staffing intensity is more effective than negotiating rates alone. Future estates should implement pre-approved budget caps on hours by workstream and require justification for significant overruns.
 - The heavy reliance on unstructured PDFs created significant inefficiencies in analysis. Courts and estates should consider adopting standardized digital submission templates to enable automated ingestion, auditing, and analytics.
 
 ## Author Information
-### Segun
+### Segun Olakoyenikan
 Data Analyst and Storyteller
 
 [Return Home](https://github.com/MrKoyee/Power-BI-Dashboard#table-of-contents)
-
