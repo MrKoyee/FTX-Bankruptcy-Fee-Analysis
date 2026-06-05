@@ -1,5 +1,5 @@
 #  FTX Bankruptcy Professional Fees and Asset Recovery Analytics
-## [Table of Contents](#table-of-contents)
+## Table of Contents
  
   - [📊 Dashboard Preview](#-dashboard-preview)
   - [📖 Project Overview](#-project-overview)
