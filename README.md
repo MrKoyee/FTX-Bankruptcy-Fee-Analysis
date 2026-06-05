@@ -1,4 +1,4 @@
-#  [FTX Bankruptcy Professional Fees and Asset Recovery Analytics](#ftx-bankruptcy-professional-fees-and-asset-recovery-analytics)
+#  FTX Bankruptcy Professional Fees and Asset Recovery Analytics
 ## [Table of Contents](#table-of-contents)
  
   - [📊 Dashboard Preview](#-dashboard-preview)
