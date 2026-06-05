@@ -214,4 +214,4 @@ Overall, the analysis suggests that while the FTX bankruptcy was exceptionally e
 ### Segun Olakoyenikan
 Data Analyst and Storyteller
 
-[Return Home](https://github.com/MrKoyee/Power-BI-Dashboard#table-of-contents)
+[Return Home](#ftx-bankruptcy-professional-fees-and-asset-recovery-analytics)
